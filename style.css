@@ -131,5 +131,8 @@ body {
     background-color: rgb(0, 0, 0,0.5);
     padding: 10px;
     border-radius: 10px;
+    overflow: scroll;
+    width: auto;
+    height: 284.95px;
 }
 
