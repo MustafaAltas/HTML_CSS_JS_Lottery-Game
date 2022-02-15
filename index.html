@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lucky Number</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Architects+Daughter&family=Bowlby+One+SC&family=Cairo:wght@300&family=Changa:wght@200&family=Indie+Flower&family=Lato:wght@100;400&family=Lobster+Two&family=Luckiest+Guy&family=Mochiy+Pop+P+One&family=Montagu+Slab:wght@500&family=Montserrat:wght@300;400;500&family=Neonderthaw&family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@300&family=Orbitron&family=Permanent+Marker&family=Raleway:ital,wght@1,300&family=Rubik+Beastly&family=Syne+Tactile&family=Teko:wght@300;700&family=Viaoda+Libre&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="cantainer">
+      <section class="sol">
+        <div class="sol_1">
+          <h1>Şanslı Numaralarınızı Giriniz(1-99)</h1>
+          <div>
+            <input type="number" name="bir" id="bir" class="girdi" />
+            <input type="number" name="iki" id="iki" class="girdi" />
+            <input type="number" name="üç" id="üç" class="girdi" />
+            <input type="number" name="dört" id="dört" class="girdi" />
+            <input type="number" name="beş" id="beş" class="girdi" />
+            <input type="number" name="altı" id="altı" class="girdi" />
+            <input type="number" name="joker" id="joker" class="girdi" />
+            <input
+              type="number"
+              name="superstar"
+              id="superstar"
+              class="girdi"
+            />
+            <button class="btn" id="btn" value="Onay">Onay</button>
+          </div>
+        </div>
+        <div class="sol_2">
+          <h1>***Şanslı Numaralar***</h1>
+          <div>
+            <div class="numara">1</div>
+            <div class="numara">2</div>
+            <div class="numara">3</div>
+            <div class="numara">4</div>
+            <div class="numara">5</div>
+            <div class="numara">6</div>
+            <div class="numara">
+              <img src="./img/joker.png" alt="" class="sol_2_img" />
+            </div>
+            <div class="numara">
+              <img src="./img/star.png" alt="" class="sol_2_img" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sağ">
+        <div class="finans">
+          <h2>Lütfen Miktarı giriniz(₺)</h2>
+          <div>
+            <input type="number" name="para" id="para" class="para" />
+          </div>
+        </div>
+        <div class="finans_tablosu" id="finans_tablosu">
+          <div class="Kurallar">
+              <h3>Oyun Kuralları</h3>
+              <ul>
+                  <li>1 numara doğru bilene girdiği miktarın 1 katını</li>
+                  <li>2 numara doğru bilene girdiği miktarın 2 katını</li>
+                  <li>3 numara doğru bilene girdiği miktarın 3 katını</li>
+                  <li>4 numara doğru bilene girdiği miktarın 4 katını</li>
+                  <li>5 numara doğru bilene girdiği miktarın 5 katını</li>
+                  <li>6 numara doğru bilene girdiği miktarın 6 katını</li>
+              </ul>
+          </div>
+          <div class="liste">
+              <h3 style="text-align: center;">Kazanç Tablosu</h3> <br>
+              <hr style="border: dotted;">
+            <ul id="finans_tablosu_ul">
+              <li id="finans_tablosu_ul_li"></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>
