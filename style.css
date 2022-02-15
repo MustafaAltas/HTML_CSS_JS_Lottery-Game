@@ -22,7 +22,7 @@ body {
 .sol {
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    gap: 15rem;
+    gap: 8rem;
 }
 .sol_1 {
     display: flex;
@@ -84,6 +84,10 @@ body {
     border-radius: 100%;
     color: black;
     font-size: 2rem;
+}
+.icon {
+    display: flex;
+    justify-content: center;
 }
 .sol_2_img {
     width: 2rem;
